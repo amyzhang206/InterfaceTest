@@ -246,7 +246,7 @@ def main():
             html = html + '<tr><td>' + test[0] + '</td><td>' + test[1] + '</td><td>' + test[2] + '</td><td>' + test[3] + '</td></tr>'
         html = html + '</table></body></html>'
         #sendMail(html)
-        print("test")
+      
 
 if __name__ == '__main__':
     main()
